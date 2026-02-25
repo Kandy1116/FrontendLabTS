@@ -1,0 +1,84 @@
+.settings__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.settings__container {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+.settings__title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #032b41;
+    margin-bottom: 48px;
+}
+
+.settings__loading {
+    text-align: center;
+    padding: 48px;
+    font-size: 18px;
+    color: #032b41;
+}
+
+.settings__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.settings__section {
+    text-align: center;
+}
+
+.settings__section-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #032b41;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.settings__plan-details,
+.settings__user-email {
+    font-size: 16px;
+    color: #394547;
+    font-family: 'Roboto', sans-serif;
+}
+
+.settings__plan-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.settings__upgrade-btn {
+    background-color: #2bd97c;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.settings__upgrade-btn:hover {
+    background-color: #22c56e;
+}
+
+.settings__plan-name--premium {
+    color: #2bd97c;
+    font-weight: bold;
+}

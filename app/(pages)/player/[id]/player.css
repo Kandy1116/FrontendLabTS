@@ -1,0 +1,40 @@
+.player__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.player__container {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 32px;
+    background-color: #f1f6f4;
+}
+
+.player__book-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.player__container--skeleton {
+    max-width: 800px;
+    margin: 0 auto;
+    height: calc(100vh - 64px);
+}
+
+.player__book-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #032b41;
+    margin-bottom: 24px;
+}
+
+.player__book-summary {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #394547;
+    text-align: justify;
+}

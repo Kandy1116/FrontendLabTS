@@ -1,0 +1,158 @@
+.for-you__wrapper {
+    background-color: #f1f6f4;
+    min-height: 100vh;
+}
+
+.for-you__container {
+    padding: 32px;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.foryou__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #032b41;
+    margin-bottom: 8px;
+}
+
+.foryou__sub-title {
+    font-size: 16px;
+    color: #6b7280;
+    margin-bottom: 24px;
+}
+
+.foryou__books-grid {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 48px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 20px;
+    margin-left: -32px;
+    margin-right: -32px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.foryou__books-grid::-webkit-scrollbar {
+  display: none;
+}
+
+.foryou__books-grid {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.selected-book__link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    margin-bottom: 48px;
+}
+
+.selected-book__wrapper {
+    background-color: #f1f6f4;
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selected-book__sub-title {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 250px;
+    line-height: 1.4;
+    color: #032b41;
+}
+
+.selected-book__details {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.selected-book__image--wrapper {
+    flex-shrink: 0;
+}
+
+.selected-book__image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.selected-book__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.selected-book__title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #032b41;
+}
+
+.selected-book__author {
+    font-size: 16px;
+    color: #6b7280;
+    margin-bottom: 16px;
+}
+
+.selected-book__audio {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #032b41;
+}
+
+.selected-book__play-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #032b41;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.for-you__container--skeleton {
+    padding: 32px;
+}
+
+.selected-book__wrapper--skeleton {
+    background-color: #f9fafb;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 48px;
+}
+
+.selected-book__details--skeleton {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.selected-book__text--skeleton {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-grow: 1;
+}
+
+.book-pill--skeleton {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 200px; 
+    flex-shrink: 0;
+}

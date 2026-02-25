@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 16px 24px;
+    border-bottom: 1px solid #e1e7ea;
+    background-color: white;
+}
+
+.header__search-wrapper {
+    max-width: 400px;
+}
+
+.header__toggle-btn {
+    display: none; /* Hidden on desktop */
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #032b41;
+}
+
+@media (max-width: 768px) {
+    .header {
+        position: fixed;
+        width: 100%;
+        z-index: 1001;
+        justify-content: flex-end;
+    }
+
+    .header__search-wrapper {
+        display: none; /* Hide search in header on mobile, it's in the modal */
+    }
+
+    .header__toggle-btn {
+        display: block;
+    }
+}
