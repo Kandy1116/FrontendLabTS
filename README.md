@@ -1,22 +1,10 @@
-FrontendLabTS
+A TypeScript-focused frontend project demonstrating modular components and state management.
 
-This is a TypeScript-focused frontend project showcasing modular components and scalable UI development practices for real-world applications.
+Tech Stack: TypeScript, React, CSS, HTML
 
-Tech Stack
+Run Locally:
+1. Clone repo: `git clone https://github.com/Kandy1116/FrontendLabTS.git`
+2. Install dependencies: `npm install`
+3. Start dev server: `npm run dev`
 
-TypeScript
-JavaScript
-HTML
-CSS
-
-Prerequisites
-
-Node.js installed
-
-Getting Started
-
-To start the application, please follow the steps below
-
-npm install
-
-npm run dev
+Live Demo: [FrontendLabTS Live](https://your-demo-link.vercel.app)
